@@ -85,6 +85,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94B49B9C1E4898CD00828553 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		94B49B9D1E4898CD00828553 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		94B49B9E1E4898CD00828553 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		94B49B9F1E4898CD00828553 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		94B49BA01E4898CD00828553 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		94B49BA11E4898CD00828553 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		94B49BA21E4898CD00828553 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		94B49BA31E4898CD00828553 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94B49BA41E4898CD00828553 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		94EE57211E488D1100D91C17 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +174,15 @@
 		94EE572C1E488D1100D91C17 /* MHMaMa */ = {
 			isa = PBXGroup;
 			children = (
+				94B49B9C1E4898CD00828553 /* BaseViewController */,
+				94B49B9D1E4898CD00828553 /* Categories */,
+				94B49B9E1E4898CD00828553 /* Config */,
+				94B49B9F1E4898CD00828553 /* Entity */,
+				94B49BA01E4898CD00828553 /* Lib */,
+				94B49BA11E4898CD00828553 /* Manager */,
+				94B49BA21E4898CD00828553 /* Tools */,
+				94B49BA31E4898CD00828553 /* View */,
+				94B49BA41E4898CD00828553 /* ViewController */,
 				94EE57301E488D1100D91C17 /* AppDelegate.h */,
 				94EE57311E488D1100D91C17 /* AppDelegate.m */,
 				94EE57331E488D1100D91C17 /* ViewController.h */,
