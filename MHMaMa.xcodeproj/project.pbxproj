@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		892042858A867C36E210F507 /* Pods_MHMaMa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0316510DCEF1FED34C73F2FF /* Pods_MHMaMa.framework */; };
 		94B49B9B1E4896AF00828553 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 94B49B9A1E4896AF00828553 /* .gitignore */; };
+		94B49BAE1E48A59100828553 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B49BA91E48A59100828553 /* BaseNavigationController.m */; };
+		94B49BAF1E48A59100828553 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B49BAB1E48A59100828553 /* BaseTabBarController.m */; };
+		94B49BB01E48A59100828553 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B49BAD1E48A59100828553 /* BaseViewController.m */; };
+		94B49BB61E48A63E00828553 /* MProgressHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B49BB31E48A63E00828553 /* MProgressHUDView.m */; };
+		94B49BB71E48A63E00828553 /* TRAlertToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B49BB51E48A63E00828553 /* TRAlertToast.m */; };
+		94B49BBA1E48A6A600828553 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B49BB91E48A6A600828553 /* UINavigationBar+Awesome.m */; };
+		94B49BBD1E48A6D300828553 /* MViewTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B49BBC1E48A6D300828553 /* MViewTools.m */; };
 		94EE572F1E488D1100D91C17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EE572E1E488D1100D91C17 /* main.m */; };
 		94EE57321E488D1100D91C17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EE57311E488D1100D91C17 /* AppDelegate.m */; };
 		94EE57351E488D1100D91C17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EE57341E488D1100D91C17 /* ViewController.m */; };
@@ -39,6 +46,24 @@
 /* Begin PBXFileReference section */
 		0316510DCEF1FED34C73F2FF /* Pods_MHMaMa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHMaMa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B49B9A1E4896AF00828553 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		94B49BA81E48A59100828553 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		94B49BA91E48A59100828553 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		94B49BAA1E48A59100828553 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		94B49BAB1E48A59100828553 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		94B49BAC1E48A59100828553 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		94B49BAD1E48A59100828553 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		94B49BB21E48A63E00828553 /* MProgressHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MProgressHUDView.h; sourceTree = "<group>"; };
+		94B49BB31E48A63E00828553 /* MProgressHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MProgressHUDView.m; sourceTree = "<group>"; };
+		94B49BB41E48A63E00828553 /* TRAlertToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRAlertToast.h; sourceTree = "<group>"; };
+		94B49BB51E48A63E00828553 /* TRAlertToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRAlertToast.m; sourceTree = "<group>"; };
+		94B49BB81E48A6A600828553 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		94B49BB91E48A6A600828553 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		94B49BBB1E48A6D300828553 /* MViewTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MViewTools.h; sourceTree = "<group>"; };
+		94B49BBC1E48A6D300828553 /* MViewTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MViewTools.m; sourceTree = "<group>"; };
+		94B49BBE1E48A7D700828553 /* CodeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeConfig.h; sourceTree = "<group>"; };
+		94B49BBF1E48A7D700828553 /* ConstantConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantConfig.h; sourceTree = "<group>"; };
+		94B49BC01E48A7D700828553 /* UserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserConfig.h; sourceTree = "<group>"; };
+		94B49BC11E48A82200828553 /* MHMaMa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHMaMa-Prefix.pch"; sourceTree = "<group>"; };
 		94EE572A1E488D1100D91C17 /* MHMaMa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHMaMa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EE572E1E488D1100D91C17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94EE57301E488D1100D91C17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +113,12 @@
 		94B49B9C1E4898CD00828553 /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
+				94B49BA81E48A59100828553 /* BaseNavigationController.h */,
+				94B49BA91E48A59100828553 /* BaseNavigationController.m */,
+				94B49BAA1E48A59100828553 /* BaseTabBarController.h */,
+				94B49BAB1E48A59100828553 /* BaseTabBarController.m */,
+				94B49BAC1E48A59100828553 /* BaseViewController.h */,
+				94B49BAD1E48A59100828553 /* BaseViewController.m */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -95,6 +126,8 @@
 		94B49B9D1E4898CD00828553 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				94B49BB81E48A6A600828553 /* UINavigationBar+Awesome.h */,
+				94B49BB91E48A6A600828553 /* UINavigationBar+Awesome.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -102,6 +135,9 @@
 		94B49B9E1E4898CD00828553 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				94B49BBE1E48A7D700828553 /* CodeConfig.h */,
+				94B49BBF1E48A7D700828553 /* ConstantConfig.h */,
+				94B49BC01E48A7D700828553 /* UserConfig.h */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -116,6 +152,7 @@
 		94B49BA01E4898CD00828553 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				94B49BA71E48A43400828553 /* GPUImage */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -130,6 +167,8 @@
 		94B49BA21E4898CD00828553 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				94B49BBB1E48A6D300828553 /* MViewTools.h */,
+				94B49BBC1E48A6D300828553 /* MViewTools.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -137,6 +176,7 @@
 		94B49BA31E4898CD00828553 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				94B49BB11E48A63E00828553 /* CustomView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -146,6 +186,24 @@
 			children = (
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		94B49BA71E48A43400828553 /* GPUImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GPUImage;
+			sourceTree = "<group>";
+		};
+		94B49BB11E48A63E00828553 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				94B49BB21E48A63E00828553 /* MProgressHUDView.h */,
+				94B49BB31E48A63E00828553 /* MProgressHUDView.m */,
+				94B49BB41E48A63E00828553 /* TRAlertToast.h */,
+				94B49BB51E48A63E00828553 /* TRAlertToast.m */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		94EE57211E488D1100D91C17 = {
@@ -200,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				94EE572E1E488D1100D91C17 /* main.m */,
+				94B49BC11E48A82200828553 /* MHMaMa-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -424,8 +483,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B49BAF1E48A59100828553 /* BaseTabBarController.m in Sources */,
+				94B49BB01E48A59100828553 /* BaseViewController.m in Sources */,
+				94B49BB71E48A63E00828553 /* TRAlertToast.m in Sources */,
+				94B49BAE1E48A59100828553 /* BaseNavigationController.m in Sources */,
+				94B49BBA1E48A6A600828553 /* UINavigationBar+Awesome.m in Sources */,
 				94EE57351E488D1100D91C17 /* ViewController.m in Sources */,
+				94B49BB61E48A63E00828553 /* MProgressHUDView.m in Sources */,
 				94EE57321E488D1100D91C17 /* AppDelegate.m in Sources */,
+				94B49BBD1E48A6D300828553 /* MViewTools.m in Sources */,
 				94EE572F1E488D1100D91C17 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,6 +640,7 @@
 			baseConfigurationReference = A1A38DFD614E26608A0B5219 /* Pods-MHMaMa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MHMaMa/MHMaMa-Prefix.pch";
 				INFOPLIST_FILE = MHMaMa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.com.yunyou.BuyBuyBuy.MHMaMa;
@@ -586,6 +653,7 @@
 			baseConfigurationReference = B886BF8CC09D33275C41F708 /* Pods-MHMaMa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MHMaMa/MHMaMa-Prefix.pch";
 				INFOPLIST_FILE = MHMaMa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.com.yunyou.BuyBuyBuy.MHMaMa;

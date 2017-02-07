@@ -1,0 +1,18 @@
+//
+//  MHMaMa-Prefix.pch
+//  MHMaMa
+//
+//  Created by yuemin li on 2017/2/6.
+//  Copyright © 2017年 yuemin li. All rights reserved.
+//
+
+#ifndef MHMaMa_Prefix_pch
+#define MHMaMa_Prefix_pch
+#import "ConstantConfig.h"
+#import "CodeConfig.h"
+#import "UserConfig.h"
+#import "UMMobClick/MobClick.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MHMaMa_Prefix_pch */
