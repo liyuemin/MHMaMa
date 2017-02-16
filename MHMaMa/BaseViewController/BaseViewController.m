@@ -10,7 +10,7 @@
 #import "UINavigationBar+Awesome.h"
 #import "UIView+YYAdd.h"
 #import "MViewTools.h"
-#import "UMMobClick/MobClick.h"
+#import "MEntityTool.h"
 
 @interface BaseViewController ()
 @property (nonatomic, strong) TRAlertToast *alertToast;

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "MProgressHUDView.h"
 #import "TRAlertToast.h"
+#import "objc/runtime.h"
 
 @interface BaseViewController : UIViewController
 

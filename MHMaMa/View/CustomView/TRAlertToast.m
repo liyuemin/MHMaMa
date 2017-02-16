@@ -8,9 +8,6 @@
 
 #import "TRAlertToast.h"
 #import "UIColor+more.h"
-#import "MAppSetManager.h"
-#import "MCmtInfoButton.h"
-#import "TWMessageBarManager.h"
 
 #define kToastViewHeight  60    //toast高度
 
@@ -39,59 +36,6 @@
     self.textBgView = nil;
 }
 
-+ (void)showAlertToastOnStatusBar:(MStatusBarType)statusBarType entityName:(NSString *)entityName WithString:(NSString *)toastString withTargetDic:(NSDictionary *)paramDic
-{
-    switch (statusBarType)
-    {
-        case MStatusBarTypeCmt://评论状态的状态栏通知
-        {
-            BOOL successBool = ([paramDic[@"success"] integerValue] == 1);
-            NSString *mgId = paramDic[@"mgId"];
-            NSInteger mgType = [paramDic[@"mgType"] integerValue];
-            NSString *freq = paramDic[@"freq"];
-            
-            //阿里百川statusBar&navBar toast
-            [[TWMessageBarManager sharedInstance]showMessageWithTitle:successBool?@"成功":@"失败" description:toastString type:successBool?TWMessageBarMessageTypeSuccess:TWMessageBarMessageTypeError duration:5 callback:^{
-                if (!successBool)
-                {
-                    [MAppSetManager pushCmtViewControllerWithMgId:mgId entityName:entityName withType:mgType freq:freq];
-                }
-            }];
-            
-            /*自己重写statusBar toast
-            [[UIApplication sharedApplication].keyWindow setWindowLevel:UIWindowLevelStatusBar];
-            MCmtInfoButton *signBtn = [MCmtInfoButton buttonWithType:UIButtonTypeCustom];
-            signBtn.frame = CGRectMake(0, 0, ScreenWidth, 20);
-            signBtn.backgroundColor = k_5681F6;
-            signBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-             signBtn.mgId = paramDic[@"mgId"];
-             signBtn.freq = paramDic[@"freq"];
-            signBtn.mgName = entityName;
-            signBtn.mgType = [paramDic[@"mgType"] integerValue];
-            [signBtn setTitle:toastString forState:UIControlStateNormal];
-            if ([paramDic[@"success"] integerValue] != 1)
-            {
-                [signBtn addTarget:self action:@selector(clickBtnAction:) forControlEvents:UIControlEventTouchUpInside];
-            }
-            [signBtn.titleLabel setFont:[UIFont systemFontOfSize:13]];
-            [[UIApplication sharedApplication].keyWindow addSubview:signBtn];
-            
-            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                [signBtn removeFromSuperview];
-                [[UIApplication sharedApplication].keyWindow setWindowLevel:UIWindowLevelNormal];
-            });
-             */
-        }
-            break;
-        default:
-            break;
-    }
-}
-
-+ (void)clickBtnAction:(MCmtInfoButton *)tmpBtn
-{
-    [MAppSetManager pushCmtViewControllerWithMgId:tmpBtn.mgId entityName:tmpBtn.mgName withType:tmpBtn.mgType freq:tmpBtn.freq];
-}
 
 #pragma mark - Public Method
 

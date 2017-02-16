@@ -15,7 +15,6 @@ typedef NS_ENUM(NSInteger, MStatusBarType)
 
 @interface TRAlertToast : UIView
 
-+ (void)showAlertToastOnStatusBar:(MStatusBarType)statusBarType entityName:(NSString *)entityName WithString:(NSString *)toastString withTargetDic:(NSDictionary *)paramDic;
 
 - (void)setShowText:(NSString *)tmpText;
 
